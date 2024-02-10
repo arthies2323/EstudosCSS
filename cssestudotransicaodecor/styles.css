@@ -1,0 +1,31 @@
+.color {
+  background-color: aquamarine;
+  height: 80px;
+  width: 80px;
+  border: none;
+  transition-property: background-color;
+  transition-duration: 3s;
+  display: block;
+  margin-bottom: 5px;
+  border-radius: 15px;
+}
+
+#ease {
+  transition-timing-function: ease;
+}
+#linear {
+  transition-timing-function: linear;
+}
+#ease-in {
+  transition-timing-function: ease-in;
+}
+#ease-out {
+  transition-timing-function: ease-out;
+}
+#ease-in-out {
+  transition-timing-function: ease-in-out;
+}
+
+.color:hover {
+  background-color: purple;
+}
